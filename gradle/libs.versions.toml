@@ -1,0 +1,11 @@
+[versions]
+codec = "0.1.0"
+slf4j = "2.0.18"
+publish = "0.37.0"
+
+[libraries]
+codec = { module = "dev.minestom-united:codec", version.ref = "codec" }
+logging = { module = "org.slf4j:slf4j-api", version.ref = "slf4j" }
+
+[plugins]
+publish = { id = "com.vanniktech.maven.publish", version.ref = "publish" }
